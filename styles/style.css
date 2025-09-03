@@ -36,7 +36,7 @@ font-family: Inter;
 font-size: 34px;
 font-style: normal;
 font-weight: 900;
-line-height: 150%; /* 51px */
+line-height: 150%; 
 }
 nav {
   max-width: 1140%;
@@ -74,7 +74,7 @@ border-radius: 10px;
   font-size: 65px;
   width: 905px;
   height: 152px;
-  /* gap: 37px; */
+  
 }
 .Fc-button {
   color: white;
@@ -90,5 +90,48 @@ border-radius: 10px;
   margin-right: auto;
 }
 
+/* Main section */
 
+.action-section{
+  display: flex;
+  margin: 116px 160px 116px 141px;
+  justify-content: center;
+
+}
+.action{
+  width: 517px;
+  height: 203px;
+  margin: 62.5px 220px 62.5px 0;
+
+}
+
+.action-title{
+  color: #252432;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.description{
+  width: 517px;
+  height: 60px;
+  font-size: 400px;
+  font-size: 24px;
+  color: #252432;
+  line-height: 30px;
+  margin-top: 23px;
+}
+.launch-button{
+  background-color: #4E47FF;
+  padding: 12px 36px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 23px;
+}
+.image{
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
 

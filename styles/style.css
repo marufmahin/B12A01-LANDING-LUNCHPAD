@@ -325,3 +325,77 @@ margin-left: 12px;
   height: 364.77px;
   border-radius: 48px;
 }
+
+/* Form styles */
+.Touch{
+  display: flex;
+  width: 1140px;
+  height: 632px;
+  padding: 71px 0 71px 0;
+  justify-content: space-between;
+  align-items: center;
+  margin: 92.23px auto 14px auto;
+  border: none;
+}
+
+.Touch-title{
+  width: 528px px;
+  height: 232px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 97px;
+  margin: 129px 115px 129px 0;
+  line-height: 120%;
+}
+
+.Form{
+  width: 497px;
+  height: 490px;
+  margin: 71px 0 71px 0;
+}
+
+.Email, .Name, .Msg{
+  width: 497px;
+  height: 22px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.Em, .Nm{
+  width: 497px;
+  height: 70px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px 32px;
+  margin-bottom: 19px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+}
+
+.area{
+  width: 497px;
+  height: 135px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px 32px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  margin-bottom: 19px;
+}
+
+.Touch-button{
+  width: 497px;
+  height: 62px;
+  background-color:#4E47FF ;
+  padding: 19px 101px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+

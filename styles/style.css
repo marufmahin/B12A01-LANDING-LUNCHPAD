@@ -66,13 +66,13 @@ font-weight: bold;
 font-size: 16px;
 border: none;
 border-radius: 10px;
+cursor: pointer;
 
 }
 
 /* section */
 .section {
-  align-items: center;
-  margin: 152px 268px;
+  margin: 152px auto;
   width: 1140px;
   height: 328px;
   text-align: center;
@@ -80,10 +80,10 @@ border-radius: 10px;
 .h3 {
   color: #252432;
   font-weight: bold;
-  text-align: center;
   font-size: 65px;
   width: 905px;
   height: 152px;
+  margin: 0 auto;
   
 }
 .Fc-button {
@@ -96,8 +96,7 @@ border-radius: 10px;
   border: none;
   border-radius: 10px;
   margin-top: 37px;
-  margin-left: auto;
-  margin-right: auto;
+  cursor: pointer;
 }
 
 /* Main section */
@@ -140,6 +139,7 @@ border-radius: 10px;
   font-size: 16px;
   border-radius: 10px;
   margin-top: 23px;
+  cursor: pointer;
 }
 .image{
   width: 403px;
@@ -399,3 +399,43 @@ margin-left: 12px;
   border: none;
 }
 
+/* Footer styles */
+footer{
+  width: 1440px;
+  height: 428px;
+  background-color: #FFFFFF;
+  border-top: 1px solid rgba(0, 0, 0, 0.10);
+  padding: 104px 455px 103px 454px;
+  margin: 14px auto 0 auto;
+}
+
+.foter{
+  width: 531px;
+  height: 221px;
+  text-align: center;
+
+ }
+.ft-logo{ 
+  font-weight: 900;
+  color: #4E47FF;
+  font-size: 100px;
+  margin: 0 120px 8px 120px ;
+
+}
+.ft-para{
+  color: #8987A1;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 20px;
+
+}
+.ft-link{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+footer a{
+  text-decoration: none;
+  color: #8987A1;
+  font-size: 16px;
+}

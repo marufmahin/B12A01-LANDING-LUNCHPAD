@@ -280,3 +280,48 @@ margin-left: 12px;
   font-size: 16px;
 }
 
+/* Focus better styles */
+
+.focus-better{
+  width: 1140px;
+  height: 696.77px;
+  background-color: #FFFFFF;
+  border-radius: 14px;
+  padding: 71px 150px;
+  margin: 0 auto;
+}
+
+.fb-title{
+  height: 60px;
+  width: 516px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0 162px 20px 162px;
+
+}
+
+.fb-paragraph{
+  height: 22px;
+  width: 487px;
+  color: #000000;
+  opacity: 50%;
+  font-size: 16px;
+  font-weight: 400;
+   margin: 0 176.5px 20px 176.5px;
+}
+.fb-button{
+  background-color: #4E47FF;
+  padding: 12px 36px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 322.5px 20px 322.5px;
+}
+.fb-image{
+  width: 840px;
+  height: 364.77px;
+  border-radius: 48px;
+}
